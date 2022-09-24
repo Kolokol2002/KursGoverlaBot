@@ -42,7 +42,7 @@ async def start(message: types.Message, state: FSMContext):
         try:
 
             driver = webdriver.Chrome(
-                executable_path= '~/KursGoverlaBot/chromedriver_linux',
+                executable_path= '/home/karalash_maksym/KursGoverlaBot/chromedriver_linux',
                 options=options)
             driver.get("https://goverla.ua/")
 
